@@ -71,3 +71,157 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+/*colocando el menú en posición fija*/
+header{
+  position: fixed;
+  width: 1295px;
+  background: white;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+/*colocando tamaño y margen al logo del menú*/
+.menu img{
+  width: 50px;
+  margin-left: 600px;
+  margin-top: 10px;
+}
+
+/*transformando las letras a mayúsculas, cambiando tamaño de letra del menú*/
+.menu a{
+  margin-left: 100px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+/*colocando como fondo la imagen bg-home de la carpeta imagenes*/
+#container img{
+  background-image: bg-home.jpg;
+  display: inline;
+  padding-top: 50px;
+}
+/*ajustando contenido en la portada superior*/
+#container h2{
+  position: relative;
+  bottom: 450px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#container h1{
+  position: relative;
+  bottom: 400px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+#container p{
+  position: relative;
+  bottom: 400px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+#container a{
+  position: relative;
+  bottom: 300px;
+  margin-left: 580px;
+  color: white;
+  background-color: #2ECC71;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 15px;
+}
+#container2{
+  background: salmon;
+  float: left;
+  height: 500px;
+  color: white;
+  text-align:center;
+}
+
+#container2 h2{
+  margin-top: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+#container2 h4{
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+#container2 img{
+  width: 150px;
+  margin-top: 60px;
+  float: left;
+  margin-left: 230px;
+}
+
+#container2 .texto{
+  float: left;
+  margin-top: 30px;
+  margin-left: 220px;
+}
+#container2 h5{
+  text-transform: uppercase;
+}
+#container3 {
+  z-index: 1;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+#container3 h2{
+  margin-left: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+#container3 h4{
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 45px;
+}
+#container3 .computador{
+  width: 700px;
+  height: 700px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.imagenes img{
+  width: 200px;
+  float: left;
+  margin-top: 50px;
+}
+.imagenes .imagen1{
+  margin-left: 150px;
+}
+
+.imagenes .imagen4{
+  margin-left: 150px;
+}
+.imagenes .imagen7{
+  margin-left: 150px;
+}
+.imagenes p{
+  text-align: center;
+  float: left;
+  margin-top: 50px;
+}
+footer{
+  margin-top: 100px;
+  background: DimGray;
+  height: 70px;
+  width: 1290px;
+  display: inline-block;
+}
+footer p{
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+}
